@@ -10,5 +10,13 @@ module.exports = {
         let sum = num1 + num2
         return sum
     },
+    multiplication: (num1, num2) => {
+        let multiply = num1 * num2
+        return multiply
+    },
+    division: (num1, num2) => {
+        let divide = num1 / num2
+        return divide
+    }
 
 }
